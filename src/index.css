@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Coolvetica";
   src: local("Coolvetica"),
-  url("src/assets/Coolvetica Rg.otf") format("opentype");
+  url("../public/assets/Coolvetica Rg.otf") format("opentype");
   font-weight: bold;
 }
 

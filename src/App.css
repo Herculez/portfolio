@@ -5,14 +5,14 @@
 /************ Custom Font ************/
 @font-face {
   font-family: 'Coolvetica';
-  src: url('./assets/Coolvetica Rg.otf') format('opentype');
+  src: url('../public/assets/Coolvetica Rg.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Creato';
-  src: url('./assets/CreatoDisplay-Black.otf') format('opentype');
+  src: url('../public/assets/CreatoDisplay-Black.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
 }

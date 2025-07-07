@@ -53,7 +53,7 @@ export const Projects = () => {
                                                 area extended to the French border.
                                             </p>
                                             <img
-                                                src={"src/assets/Exfiltraitor.PNG"}
+                                                src={"public/assets/Exfiltraitor.PNG"}
                                                 alt="Exfiltraitor"
                                                 style={{
                                                     maxWidth: "100%",
@@ -63,8 +63,8 @@ export const Projects = () => {
                                                 }}
                                                 onClick={() =>
                                                     openLightbox([
-                                                        { src: "src/assets/Exfiltraitor.PNG" },
-                                                        { src: "src/assets/CheckpointScene.png" },
+                                                        { src: "public/assets/Exfiltraitor.PNG" },
+                                                        { src: "public/assets/CheckpointScene.png" },
                                                     ])
                                                 }
                                             />
@@ -80,7 +80,7 @@ export const Projects = () => {
                                                 a breadth-first search algorithm to solve the maze and keeps the games world state,
                                                 to return it to pre-maze generation.</p>
                                             <img
-                                                src={"src/assets/Minecraft3.png"}
+                                                src={"public/assets/Minecraft3.png"}
                                                 alt="Maze"
                                                 style={{
                                                     maxWidth: "100%",
@@ -90,11 +90,11 @@ export const Projects = () => {
                                                 }}
                                                 onClick={() =>
                                                     openLightbox([
-                                                        { src: "src/assets/Minecraft3.png" },
-                                                        { src: "src/assets/Minecraft1.png" },
-                                                        { src: "src/assets/Minecraft2.png" },
-                                                        { src: "src/assets/Minecraft4.png" },
-                                                        { src: "src/assets/Minecraft5.png" },
+                                                        { src: "public/assets/Minecraft3.png" },
+                                                        { src: "public/assets/Minecraft1.png" },
+                                                        { src: "public/assets/Minecraft2.png" },
+                                                        { src: "public/assets/Minecraft4.png" },
+                                                        { src: "public/assets/Minecraft5.png" },
 
                                                     ])
                                                 }
@@ -112,7 +112,7 @@ export const Projects = () => {
                                                 the database used for the project was SQlite.
                                             </p>
                                             <img
-                                                src={"src/assets/FoodLoss.png"}
+                                                src={"public/assets/FoodLoss.png"}
                                                 alt="Food App"
                                                 style={{
                                                     maxWidth: "100%",
@@ -121,7 +121,7 @@ export const Projects = () => {
                                                     boxShadow: "0 10px 20px rgba(0,0,0,0.25)",
                                                 }}
                                                 onClick={() =>
-                                                    openLightbox([{ src: "src/assets/FoodLoss.png" }])
+                                                    openLightbox([{ src: "public/assets/FoodLoss.png" }])
                                                 }
                                             />
                                         </Tab.Pane>
