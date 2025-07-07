@@ -112,7 +112,7 @@ export const Projects = () => {
                                                 the database used for the project was SQlite.
                                             </p>
                                             <img
-                                                src={"/portfolio/assets/FoodLoss.png"}
+                                                src={"/portfolio/assets/FoodLoss.PNG"}
                                                 alt="Food App"
                                                 style={{
                                                     maxWidth: "100%",
@@ -121,7 +121,7 @@ export const Projects = () => {
                                                     boxShadow: "0 10px 20px rgba(0,0,0,0.25)",
                                                 }}
                                                 onClick={() =>
-                                                    openLightbox([{ src: "/portfolio/assets/FoodLoss.png" }])
+                                                    openLightbox([{ src: "/portfolio/assets/FoodLoss.PNG" }])
                                                 }
                                             />
                                         </Tab.Pane>
