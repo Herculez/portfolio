@@ -28,7 +28,7 @@ export const NavBar = () => {
         <Navbar expand="lg" className={scrolled ? "Scrolled" : ""}>
             <Container>
                 <Navbar.Brand href="#home">
-                    {/*<img src={'public/assets/react.svg'} alt="Logo"></img>*/}
+                    {/*<img src={'/portfolio/assets/react.svg'} alt="Logo"></img>*/}
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className={"navbar-toggler-icon"}/>
@@ -53,8 +53,8 @@ export const NavBar = () => {
                     </Nav>
                     <span className={"navbar-text"}>
                         <div className={"social-icon"}>
-                            <a href={"https://github.com/Herculez"}><img src={"public/assets/github-mark-white.svg"} alt={"GitHub"}/></a>
-                            <a href={"https://au.linkedin.com/"}><img src={"public/assets/LinkedIn_icon.svg"} alt={"LinkedIn"}/></a>
+                            <a href={"https://github.com/Herculez"}><img src={"/portfolio/assets/github-mark-white.svg"} alt={"GitHub"}/></a>
+                            <a href={"https://au.linkedin.com/"}><img src={"/portfolio/assets/LinkedIn_icon.svg"} alt={"LinkedIn"}/></a>
                         </div>
                         <button className={"navbar-text"} onClick={() => window.location.href = "mailto:dion.jmarks@gmail.com"}>
                             <span>Contact Me!</span>
